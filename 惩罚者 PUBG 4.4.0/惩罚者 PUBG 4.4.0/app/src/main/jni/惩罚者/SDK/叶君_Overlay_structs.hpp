@@ -1,0 +1,21 @@
+#pragma once
+
+// SDK生成作者:叶君  
+// PUBG MOBILE 游戏位数:64Bit 4.4.0
+// Telegram频道: @PUBGMYJ
+// 生成时间 2026年05月11日 19时31分14秒
+namespace SDK
+{
+//Script Structs
+// ScriptStruct Overlay.OverlayItem
+// 0x0028
+struct FOverlayItem
+{
+	struct FTimespan                                   StartTime;                                                // 0x0000(0x0008) (Edit, BlueprintVisible)
+	struct FTimespan                                   EndTime;                                                  // 0x0008(0x0008) (Edit, BlueprintVisible)
+	struct FString                                     Text;                                                     // 0x0010(0x0010) (Edit, BlueprintVisible, ZeroConstructor)
+	struct FVector2D                                   Position;                                                 // 0x0020(0x0008) (Edit, BlueprintVisible, IsPlainOldData)
+};
+
+}
+
